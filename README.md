@@ -1,7 +1,8 @@
 # 国科大图数据大作业
 ## 基本思路
 
-首先记录KeyID和Secret，这两个是发送请求时必需的。构建sparql语句模板，利用format函数将用户输入嵌入其中构成完整sparql语句，之后利用http请求向http://cloud.gstore.cn/api 发送post请求，最后对返回结果进行解析形成答案即可。
+首先记录KeyID和Secret，这两个是发送请求时必需的。构建sparql语句模板，利用format函数将用户输入嵌入其中构成完整sparql语句，之后利用http请求向http://cloud.gstore.cn/api
+发送post请求，最后对返回结果进行解析形成答案即可。
 
 ### 任务一
 
