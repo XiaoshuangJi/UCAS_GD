@@ -1,7 +1,7 @@
 import requests
 
-KeyID = "2054ef3cc0a64b5daf0c3afc54f7ffae"
-Secret = "6E4D50404DCC641599EAB7807D138CFA"
+KeyID = "Your keyid"
+Secret = "Your secret"
 url = "http://cloud.gstore.cn/api"
 
 
